@@ -1,0 +1,553 @@
+{
+  "feature_count": 139227,
+  "geometry_types": {
+    "LINESTRING": 138372,
+    "POINT": 744,
+    "POLYGON": 111
+  },
+  "bbox": [
+    13.4709334,
+    7.431517,
+    25.4762818,
+    24.3461864
+  ],
+  "columns": [
+    {
+      "name": "id",
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_percent": 0.0,
+      "distinct_count": 139227,
+      "top_values": []
+    },
+    {
+      "name": "name",
+      "type": "VARCHAR",
+      "null_count": 138039,
+      "null_percent": 99.15,
+      "distinct_count": 455,
+      "top_values": [
+        {
+          "value": "Route Nationale N'Djam\u00e9na - Bokoro - Mongo",
+          "count": 40
+        },
+        {
+          "value": "Kelo - Djuman - Bongor",
+          "count": 31
+        },
+        {
+          "value": "Kelo-Bere-Lai",
+          "count": 27
+        },
+        {
+          "value": "Sarh - Kyabe - Am Timan",
+          "count": 25
+        },
+        {
+          "value": "Avenue Charles de Gaulle \u0634\u0627\u0631\u0639 \u0634\u0627\u0631\u0644 \u062f\u064a\u063a\u0648\u0644",
+          "count": 20
+        }
+      ]
+    },
+    {
+      "name": "name_en",
+      "type": "VARCHAR",
+      "null_count": 138918,
+      "null_percent": 99.78,
+      "distinct_count": 79,
+      "top_values": [
+        {
+          "value": "Avenue Charles de Gaulle",
+          "count": 17
+        },
+        {
+          "value": "Abeche - Sudan border - El Geneina",
+          "count": 16
+        },
+        {
+          "value": "Mongo - Abu Deia - Am Timan National Road",
+          "count": 16
+        },
+        {
+          "value": "Mongo - Mangalme Regional Road",
+          "count": 15
+        },
+        {
+          "value": "Am Timan - Abu Deia - Mongo National Road",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "name": "name_ar",
+      "type": "VARCHAR",
+      "null_count": 138512,
+      "null_percent": 99.49,
+      "distinct_count": 262,
+      "top_values": [
+        {
+          "value": "\u0627\u0644\u0637\u0631\u064a\u0642 \u0627\u0644\u0648\u0637\u0646\u064a \u0627\u0646\u062c\u0645\u064a\u0646\u0627 - \u0628\u0648\u0643\u0648\u0631\u0648 - \u0645\u0648\u0646\u0642\u0648",
+          "count": 40
+        },
+        {
+          "value": "\u0634\u0627\u0631\u0639 \u0634\u0627\u0631\u0644 \u062f\u064a\u063a\u0648\u0644",
+          "count": 19
+        },
+        {
+          "value": "\u0637\u0631\u064a\u0642 \u0623\u0628\u0634\u064a-\u0623\u062a\u064a-\u0627\u0646\u062c\u0645\u064a\u0646\u0627",
+          "count": 16
+        },
+        {
+          "value": "\u0634\u0627\u0631\u0639 \u0645\u0648\u0628\u0648\u062a\u0648",
+          "count": 14
+        },
+        {
+          "value": "\u0637\u0631\u064a\u0642 \u0623\u0628\u0634\u064a - \u0627\u0644\u062d\u062f\u0648\u062f \u0627\u0644\u0633\u0648\u062f\u0627\u0646\u064a\u0629 - \u0627\u0644\u062c\u0646\u064a\u0646\u0629",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "name": "name_fr",
+      "type": "VARCHAR",
+      "null_count": 138492,
+      "null_percent": 99.47,
+      "distinct_count": 235,
+      "top_values": [
+        {
+          "value": "Route Nationale N'Djam\u00e9na - Bokoro - Mongo",
+          "count": 40
+        },
+        {
+          "value": "Route Nationale N'Djam\u00e9na - Sarh/Bongor",
+          "count": 18
+        },
+        {
+          "value": "Route nationale Moundou - Sarh",
+          "count": 18
+        },
+        {
+          "value": "Avenue Charles de Gaulle",
+          "count": 17
+        },
+        {
+          "value": "Mongo - Abu Deia - Am Timan",
+          "count": 16
+        }
+      ]
+    },
+    {
+      "name": "highway",
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_percent": 0.0,
+      "distinct_count": 37,
+      "top_values": [
+        {
+          "value": "residential",
+          "count": 50749
+        },
+        {
+          "value": "path",
+          "count": 30379
+        },
+        {
+          "value": "track",
+          "count": 27862
+        },
+        {
+          "value": "unclassified",
+          "count": 22448
+        },
+        {
+          "value": "service",
+          "count": 2423
+        }
+      ]
+    },
+    {
+      "name": "surface",
+      "type": "VARCHAR",
+      "null_count": 110542,
+      "null_percent": 79.4,
+      "distinct_count": 29,
+      "top_values": [
+        {
+          "value": "unpaved",
+          "count": 19118
+        },
+        {
+          "value": "ground",
+          "count": 6677
+        },
+        {
+          "value": "sand",
+          "count": 917
+        },
+        {
+          "value": "dirt",
+          "count": 616
+        },
+        {
+          "value": "asphalt",
+          "count": 328
+        }
+      ]
+    },
+    {
+      "name": "smoothness",
+      "type": "VARCHAR",
+      "null_count": 136962,
+      "null_percent": 98.37,
+      "distinct_count": 6,
+      "top_values": [
+        {
+          "value": "horrible",
+          "count": 2024
+        },
+        {
+          "value": "very_bad",
+          "count": 161
+        },
+        {
+          "value": "very_horrible",
+          "count": 40
+        },
+        {
+          "value": "bad",
+          "count": 32
+        },
+        {
+          "value": "intermediate",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "name": "width",
+      "type": "VARCHAR",
+      "null_count": 138860,
+      "null_percent": 99.74,
+      "distinct_count": 27,
+      "top_values": [
+        {
+          "value": "2.4",
+          "count": 90
+        },
+        {
+          "value": "2.5",
+          "count": 45
+        },
+        {
+          "value": "2.8",
+          "count": 33
+        },
+        {
+          "value": "2.6",
+          "count": 31
+        },
+        {
+          "value": "3.0",
+          "count": 20
+        }
+      ]
+    },
+    {
+      "name": "lanes",
+      "type": "VARCHAR",
+      "null_count": 137510,
+      "null_percent": 98.77,
+      "distinct_count": 4,
+      "top_values": [
+        {
+          "value": "1",
+          "count": 1436
+        },
+        {
+          "value": "2",
+          "count": 267
+        },
+        {
+          "value": "3",
+          "count": 10
+        },
+        {
+          "value": "4",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "name": "oneway",
+      "type": "VARCHAR",
+      "null_count": 138146,
+      "null_percent": 99.22,
+      "distinct_count": 2,
+      "top_values": [
+        {
+          "value": "yes",
+          "count": 945
+        },
+        {
+          "value": "no",
+          "count": 136
+        }
+      ]
+    },
+    {
+      "name": "bridge",
+      "type": "VARCHAR",
+      "null_count": 138782,
+      "null_percent": 99.68,
+      "distinct_count": 3,
+      "top_values": [
+        {
+          "value": "yes",
+          "count": 426
+        },
+        {
+          "value": "boardwalk",
+          "count": 16
+        },
+        {
+          "value": "viaduct",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "name": "layer",
+      "type": "VARCHAR",
+      "null_count": 138775,
+      "null_percent": 99.68,
+      "distinct_count": 3,
+      "top_values": [
+        {
+          "value": "1",
+          "count": 427
+        },
+        {
+          "value": "-1",
+          "count": 24
+        },
+        {
+          "value": "5",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "source",
+      "type": "VARCHAR",
+      "null_count": 139227,
+      "null_percent": 100.0,
+      "distinct_count": 0,
+      "top_values": []
+    },
+    {
+      "name": "adm0_pcode",
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_percent": 0.0,
+      "distinct_count": 1,
+      "top_values": [
+        {
+          "value": "TCD",
+          "count": 139227
+        }
+      ]
+    },
+    {
+      "name": "adm0_name",
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_percent": 0.0,
+      "distinct_count": 1,
+      "top_values": [
+        {
+          "value": "Chad",
+          "count": 139227
+        }
+      ]
+    },
+    {
+      "name": "adm1_pcode",
+      "type": "VARCHAR",
+      "null_count": 95,
+      "null_percent": 0.07,
+      "distinct_count": 23,
+      "top_values": [
+        {
+          "value": "TCD22",
+          "count": 18527
+        },
+        {
+          "value": "TCD14",
+          "count": 15476
+        },
+        {
+          "value": "TCD13",
+          "count": 14239
+        },
+        {
+          "value": "TCD18",
+          "count": 13601
+        },
+        {
+          "value": "TCD05",
+          "count": 12662
+        }
+      ]
+    },
+    {
+      "name": "adm1_name",
+      "type": "VARCHAR",
+      "null_count": 95,
+      "null_percent": 0.07,
+      "distinct_count": 23,
+      "top_values": [
+        {
+          "value": "Tibesti",
+          "count": 18527
+        },
+        {
+          "value": "Ouadda\u00ef",
+          "count": 15476
+        },
+        {
+          "value": "Moyen Chari",
+          "count": 14239
+        },
+        {
+          "value": "N'Djamena",
+          "count": 13601
+        },
+        {
+          "value": "Hadjer Lamis",
+          "count": 12662
+        }
+      ]
+    },
+    {
+      "name": "adm2_pcode",
+      "type": "VARCHAR",
+      "null_count": 95,
+      "null_percent": 0.07,
+      "distinct_count": 70,
+      "top_values": [
+        {
+          "value": "TCD1801",
+          "count": 13601
+        },
+        {
+          "value": "TCD2201",
+          "count": 12723
+        },
+        {
+          "value": "TCD1301",
+          "count": 9706
+        },
+        {
+          "value": "TCD1403",
+          "count": 9702
+        },
+        {
+          "value": "TCD0502",
+          "count": 9116
+        }
+      ]
+    },
+    {
+      "name": "adm2_name",
+      "type": "VARCHAR",
+      "null_count": 95,
+      "null_percent": 0.07,
+      "distinct_count": 70,
+      "top_values": [
+        {
+          "value": "N'Djamena",
+          "count": 13601
+        },
+        {
+          "value": "Tibesti Est",
+          "count": 12723
+        },
+        {
+          "value": "Bahr Koh",
+          "count": 9706
+        },
+        {
+          "value": "Assoungha",
+          "count": 9702
+        },
+        {
+          "value": "Dababa",
+          "count": 9116
+        }
+      ]
+    },
+    {
+      "name": "adm3_pcode",
+      "type": "VARCHAR",
+      "null_count": 139227,
+      "null_percent": 100.0,
+      "distinct_count": 0,
+      "top_values": []
+    },
+    {
+      "name": "adm3_name",
+      "type": "VARCHAR",
+      "null_count": 139227,
+      "null_percent": 100.0,
+      "distinct_count": 0,
+      "top_values": []
+    },
+    {
+      "name": "adm4_pcode",
+      "type": "VARCHAR",
+      "null_count": 139227,
+      "null_percent": 100.0,
+      "distinct_count": 0,
+      "top_values": []
+    },
+    {
+      "name": "adm4_name",
+      "type": "VARCHAR",
+      "null_count": 139227,
+      "null_percent": 100.0,
+      "distinct_count": 0,
+      "top_values": []
+    },
+    {
+      "name": "name_latin",
+      "type": "VARCHAR",
+      "null_count": 138039,
+      "null_percent": 99.15,
+      "distinct_count": 436,
+      "top_values": [
+        {
+          "value": "Route Nationale N'Djamena - Bokoro - Mongo",
+          "count": 40
+        },
+        {
+          "value": "Sarh - Kyabe - Am Timan",
+          "count": 35
+        },
+        {
+          "value": "Kelo - Djuman - Bongor",
+          "count": 31
+        },
+        {
+          "value": "Kelo-Bere-Lai",
+          "count": 27
+        },
+        {
+          "value": "Abeche - Sudan border - El Geneina",
+          "count": 22
+        }
+      ]
+    }
+  ],
+  "summary": "139,227 features. geometry types: 138,372 LINESTRING, 744 POINT, 111 POLYGON. 17 of 25 columns are >=50% null (name, name_en, name_ar, name_fr, surface, smoothness, width, lanes, oneway, bridge, layer, source, adm3_pcode, adm3_name, adm4_pcode, adm4_name, name_latin).",
+  "temporal": null
+}
